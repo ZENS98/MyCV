@@ -3,59 +3,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lê Vũ Tấn Đạt | Trang chủ</title>
+    <title>Cho Thuê Du Thuyền Long Hải - Lê Vũ Tấn Đạt</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <a href="index.html" class="logo">
-                <img src="images/logo.png" alt="Logo levutandat.click">
-            </a>
+            <div class="logo">
+                <h1>Du Thuyền Long Hải</h1>
+                <p>Chủ sở hữu: Lê Vũ Tấn Đạt</p>
+            </div>
             <nav>
                 <ul>
-                    <li><a href="index.html" class="active">Trang chủ</a></li>
-                    <li><a href="about.html">Giới thiệu</a></li>
-                    <li><a href="contact.html">Liên hệ</a></li>
+                    <li><a href="#home">Trang chủ</a></li>
+                    <li><a href="#services">Dịch vụ</a></li>
+                    <li><a href="#fleet">Đội tàu</a></li>
+                    <li><a href="#pricing">Bảng giá</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
                 </ul>
             </nav>
+            <div class="hotline">
+                <i class="fas fa-phone"></i>
+                <span>Hotline: 0900.123.456</span>
+            </div>
         </div>
     </header>
 
-    <main>
-        <section class="banner">
-            <img src="images/banner.jpg" alt="Banner">
-            <div class="banner-text">
-                <h1>Chào mừng đến với levutandat.click</h1>
-                <p>Trang web cá nhân của Lê Vũ Tấn Đạt</p>
-            </div>
-        </section>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>TRẢI NGHIỆM DU THUYỀN CAO CẤP TẠI LONG HẢI</h1>
+            <p>Dịch vụ cho thuê du thuyền sang trọng - Chất lượng hàng đầu - Giá cả hợp lý</p>
+            <a href="#contact" class="btn">ĐẶT NGAY</a>
+        </div>
+    </section>
 
-        <section class="content">
-            <div class="container">
-                <article>
-                    <h2>Tin mới nhất</h2>
-                    <p>Đây là nội dung trang chủ của bạn. Bạn có thể thêm các bài viết, sản phẩm hoặc thông tin cá nhân vào đây.</p>
-                    <button id="counterBtn">Nhấn thử</button>
-                    <p>Số lần nhấn: <span id="count">0</span></p>
-                </article>
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">DỊCH VỤ CỦA CHÚNG TÔI</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-ship"></i>
+                    <h3>Du thuyền tiệc tùng</h3>
+                    <p>Tổ chức tiệc sinh nhật, họp lớp, liên hoan trên biển</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-ring"></i>
+                    <h3>Tiệc cưới trên biển</h3>
+                    <p>Không gian lãng mạn cho ngày trọng đại</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-fish"></i>
+                    <h3>Câu cá giải trí</h3>
+                    <p>Trải nghiệm câu cá ngoài khơi đầy thú vị</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-sun"></i>
+                    <h3>Ngắm hoàng hôn</h3>
+                    <p>Khám phá vẻ đẹp Long Hải từ biển</p>
+                </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <section class="fleet" id="fleet">
+        <div class="container">
+            <h2 class="section-title">ĐỘI TÀU CỦA CHÚNG TÔI</h2>
+            <div class="fleet-slider">
+                <div class="yacht-card">
+                    <img src="images/yacht1.jpg" alt="Du thuyền 1">
+                    <div class="yacht-info">
+                        <h3>Du thuyền Luxury 01</h3>
+                        <ul>
+                            <li><i class="fas fa-users"></i> Sức chứa: 30 khách</li>
+                            <li><i class="fas fa-couch"></i> 2 phòng ngủ, phòng khách rộng</li>
+                            <li><i class="fas fa-utensils"></i> Bếp đầy đủ tiện nghi</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="yacht-card">
+                    <img src="images/yacht2.jpg" alt="Du thuyền 2">
+                    <div class="yacht-info">
+                        <h3>Du thuyền Premium 02</h3>
+                        <ul>
+                            <li><i class="fas fa-users"></i> Sức chứa: 20 khách</li>
+                            <li><i class="fas fa-couch"></i> 1 phòng ngủ, không gian mở</li>
+                            <li><i class="fas fa-swimming-pool"></i> Khu vực tắm nắng</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title">BẢNG GIÁ THUÊ DU THUYỀN</h2>
+            <div class="pricing-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Loại du thuyền</th>
+                            <th>2 giờ</th>
+                            <th>4 giờ</th>
+                            <th>6 giờ</th>
+                            <th>Nguyên ngày</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Luxury 01</td>
+                            <td>5.000.000đ</td>
+                            <td>8.000.000đ</td>
+                            <td>10.000.000đ</td>
+                            <td>15.000.000đ</td>
+                        </tr>
+                        <tr>
+                            <td>Premium 02</td>
+                            <td>3.500.000đ</td>
+                            <td>6.000.000đ</td>
+                            <td>8.000.000đ</td>
+                            <td>12.000.000đ</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="note">* Giá trên chưa bao gồm VAT. Giá có thể thay đổi tùy mùa.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">LIÊN HỆ ĐẶT DU THUYỀN</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Thông tin liên hệ</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Bến tàu Long Hải, Tỉnh Bà Rịa - Vũng Tàu</p>
+                    <p><i class="fas fa-phone"></i> Hotline: 0915.058.905</p>
+                    <p><i class="fas fa-envelope"></i> Email: stardat98@gmail.com</p>
+                    <p><i class="fas fa-clock"></i> Giờ làm việc: 8:00 - 20:00 hàng ngày</p>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Đặt du thuyền ngay</h3>
+                    <form id="booking-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Họ và tên" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Số điện thoại" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Chọn loại du thuyền</option>
+                                <option value="luxury">Du thuyền Luxury 01</option>
+                                <option value="premium">Du thuyền Premium 02</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" placeholder="Ngày thuê" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Yêu cầu thêm (nếu có)"></textarea>
+                        </div>
+                        <button type="submit" class="btn">GỬI YÊU CẦU</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="container">
-            <p>© 2023 levutandat.click - Bản quyền thuộc về Lê Vũ Tấn Đạt</p>
-            <div class="social-links">
-                <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
-                <a href="#"><img src="images/github-icon.png" alt="GitHub"></a>
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Du Thuyền Long Hải</h3>
+                    <p>Chủ sở hữu: Lê Vũ Tấn Đạt</p>
+                    <p>Giấy phép kinh doanh: TẤT HOÀN CẦN THƠ</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Liên kết</h3>
+                    <ul>
+                        <li><a href="#home">Trang chủ</a></li>
+                        <li><a href="#services">Dịch vụ</a></li>
+                        <li><a href="#fleet">Đội tàu</a></li>
+                        <li><a href="#pricing">Bảng giá</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Hỗ trợ</h3>
+                    <ul>
+                        <li><a href="#">Câu hỏi thường gặp</a></li>
+                        <li><a href="#">Chính sách hủy tour</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Du Thuyền Long Hải. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
-    <script src="js/counter.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
